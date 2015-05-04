@@ -5,10 +5,10 @@ $(function() {
 
 		$('#header').css({'letter-spacing': hScroll + "px" })
 		if(hScroll >= 66){
-			$('#header').css('letter-spacing', "66px")
+			$('#header').css('letter-spacing', "50px")
 		};
 
-		if(wScroll > $('.creatures-pics').offset().top - ($(window).height() / 0.1)) {
+		if(wScroll > $('.creatures-pics').offset().top - 400){
 
 			$('.creatures-pics figure').each(function(i){
 
@@ -19,5 +19,5 @@ $(function() {
 
 		}
 	 });
-		
+	$("#header").fitText(1.2, { minFontSize: '20px', maxFontSize: '50px' });
  });
