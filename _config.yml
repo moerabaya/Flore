@@ -1,0 +1,14 @@
+# Site settings
+title: Flore
+email: Rabaya.Moe@gmail.com
+description: > # A Gift For DevTips
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: MoeRabaya
+github_username:  MoeRabaya
+
+port: 4000
+
+sass:
+  sass_dir: assets/css
+  style:: nested

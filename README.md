@@ -24,5 +24,3 @@ Thanks For Looking
 [@MoeRabaya](https://twitter.com/MoeRabaya)
 ---
 
-
-# Flore
