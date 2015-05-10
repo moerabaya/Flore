@@ -15,10 +15,22 @@
 </head>
 <body>
 
-  <video id="flore" poster="assets/img/poster.png" autoplay loop
-    <source src="Flore.mp4" type="video/webm">
+  <video id="flore" poster="assets/img/poster.jpg" autoplay loop>
+    <source src="Flore_540p.m4v" type="video/mp4" />
+    <source src="Flore_540p.webm" type="video/webm" />
+    <source src="Flore_540p.ogv" type="video/ogg" />
+    <source src="Flore_540p.mp4" />
+        
+    <object type="application/x-shockwave-flash" data="flashfox.swf" width="960" height="540" style="position:relative;">
+    <param name="movie" value="flashfox.swf" />
+    <param name="allowFullScreen" value="true" />
+    <param name="flashVars" value="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;poster=assets/img/poster.jpg&amp;src=Flore_540p.m4v" />
+     <embed src="flashfox.swf" width="960" height="540" style="position:relative;"  flashVars="autoplay=true&amp;controls=true&amp;fullScreenEnabled=true&amp;posterOnEnd=true&amp;loop=false&amp;&amp;src=Flore_540p.m4v" allowFullScreen="true" wmode="transparent" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer_en" />
+    
+    </object>
   </video>
 
+  <h1 class="small-screens">Device is not supported right now </h1>
 <div class="section one"></div>
 <div class="section two">
     <h1 id="header">Flore</h1>
